@@ -1,9 +1,13 @@
+<!DOCTYPE html>
 <html>
     <head>
+        <script src="js/howler.min.js"></script>
         <script src="js/script.js"></script>
     </head>
+    
     <body onload="init()" onkeydown="keyDown(event)">
-        <canvas id="duk" height="300" width="400">
-        </canvas>
+        <canvas id="duk" height="300" width="400" style="background-image: url('http://images.wisegeek.com/sky.jpg');"></canvas>
+        <p id="leftPlScore">Vänster spelare: 0</p>
+        <p id="rightPlScore">Höger spelare: 0</p>
     </body>
 </html>
